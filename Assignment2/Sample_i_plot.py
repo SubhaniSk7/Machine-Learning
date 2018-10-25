@@ -57,7 +57,7 @@ for i in data1Y_1:
     pdata1_x1_1.append(x1)
     pdata1_x2_1.append(x2)
 
-print(set(data1Y_Values))
+print('y classes:', set(data1Y_Values))
 print(len(pdata1_x1_0))
 print(len(pdata1_x1_1))
 
@@ -107,7 +107,7 @@ for i in data2Y_1:
     pdata2_x1_1.append(x1)
     pdata2_x2_1.append(x2)
 
-print(set(data2Y_Values))
+print('y classes:', set(data2Y_Values))
 print(len(pdata2_x1_0))
 print(len(pdata2_x1_1))
 
@@ -164,7 +164,7 @@ for i in data3Y_2:
     pdata3_x1_1.append(x1)
     pdata3_x2_1.append(x2)
 
-print(set(data3Y_Values))
+print('y classes:', set(data3Y_Values))
 print(len(pdata3_x1_0))
 print(len(pdata3_x1_1))
 
@@ -191,7 +191,7 @@ for i in data4X_Values:
     data4X_x1.append(i[0])
     data4X_x2.append(i[1])
 
-print(set(data4Y_Values))
+print('y classes:', set(data4Y_Values))
 data4Y_0 = np.where(data4Y_Values == 0)  # getting indices where y=0
 data4Y_1 = np.where(data4Y_Values == 1)  # getting indices where y=1
 data4Y_2 = np.where(data4Y_Values == 2)  # getting indices where y=1
@@ -222,11 +222,11 @@ for i in data4Y_2:
     pdata4_x1_1.append(x1)
     pdata4_x2_1.append(x2)
 
-mt.subplot(224)
-
-print(data4Y_Values)
+# print(data4Y_Values)
 print(len(pdata4_x1_0))
 print(len(pdata4_x1_1))
+
+mt.subplot(224)
 # mt.scatter(pdata4_x1_0, pdata4_x2_0, marker='o')
 # mt.scatter(pdata4_x1_1, pdata4_x2_1, marker='+')
 mt.scatter(data4X_x1, data4X_x2, marker='+', c=data4Y_Values)
