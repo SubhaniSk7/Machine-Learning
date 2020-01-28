@@ -1,0 +1,48 @@
+
+Sigmoid 3 layers:
+Train: 0.936 for 7933 iterations
+accuracy: 
+
+5 layers:
+train: 0.511 for 1000 iteations
+test: 0.4991231146965977
+
+
+Relu 3 layers:
+train: 0.966 for 8000 iterations
+test: 0.9540512101017187
+
+5 layers:
+train: 0.251 for 500 iterations later decreasing
+test: 0.1648544370396352
+
+
+
+-------------------------------------
+Sklearn
+
+Sigmoid 3 layers:
+train:1
+test: 0.9800070150824273
+
+5 layers:
+train:0.9997368421052631
+test:0.9793055068397054
+
+
+Relu 3 layers:
+train:1
+test:0.9891266222378113
+
+5 layers:
+train:1
+test:0.9880743598737285
+
+-------------------------------------------
+
+AlexNet:
+
+
+
+
+

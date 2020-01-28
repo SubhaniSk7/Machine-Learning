@@ -1,0 +1,47 @@
+data_1:
+
+intercept: [1.85820294]
+Accuracy for model1: 1.0
+f1 score for model1: 1.0
+c=1
+degree=2
+
+----------------------------------------------
+data_2:
+
+['x', 'y']
+intercept 2: [1.63867448]
+Accuracy for model2: 1.0
+f1 for model2: 1.0
+c=1
+degree=2
+
+----------------------------------------------
+data_3:
+used LinearSVC
+
+intercept 3: [-0.15384547 -2.29640404 -0.03045279]
+Accuracy for model3: 1.0
+f1 for model3:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        34
+           1       1.00      1.00      1.00        33
+           2       1.00      1.00      1.00        33
+
+   micro avg       1.00      1.00      1.00       100
+   macro avg       1.00      1.00      1.00       100
+weighted avg       1.00      1.00      1.00       100
+
+
+
+----------------------------------------------
+data_4:
+
+intercept 4: [2.92246017]
+Accuracy for model4: 0.8845
+f1 for model4: 0.8851317752362009
+c=1
+degree=2
+
+----------------------------------------------

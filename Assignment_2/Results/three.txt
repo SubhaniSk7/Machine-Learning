@@ -1,0 +1,94 @@
+data_1:
+
+inbuilt f1 for model1: 0.56
+my f1 for model1: 0.56
+Accuracy for test: 0.45
+confusion1:
+	[[2 9]
+	 [2 7]]
+(200, 200) (200, 200) (200, 200)
+bias1: [0.38793275]
+
+
+-----------------------------------------------------
+data_2:
+
+inbuilt f1 for model2: 0.8750000000000001
+my f1 for model2: 0.8750000000000001
+Accuracy for test: 0.9
+
+confusion2:
+	[[11  0]
+	 [ 2  7]]
+bias2: [0.08580343]
+
+-----------------------------------------------------
+data_3:
+
+OVR:
+class 0 , rest:
+
+inbuilt f1 for model3 class: 0 --> 1.0
+my f1 for model3: 1.0
+Accuracy for test: 1.0
+	confusion3:
+	[[15  0]
+	 [ 0  5]]
+bias3: [-2.23721209]
+
+
+class 1 , rest:
+
+inbuilt f1 for model3 class: 1 --> 1.0
+my f1 for model3: 1.0
+Accuracy for test: 1.0
+confusion3:
+	[[11  0]
+	 [ 0  9]]
+bias3: [-5.01318078]
+
+
+
+
+class 2 , rest:
+
+
+inbuilt f1 for model3 class: 2 --> 1.0
+my f1 for model3: 1.0
+Accuracy for test: 1.0
+confusion3:
+	[[14  0]
+	 [ 0  6]]
+bias3: [-0.40477513]
+
+
+
+OVO:
+class 0 , 1:
+intercept 3: [2.23721216]
+inbuilt f1 for model3 class: 0   1 : 1.0
+
+
+
+class 0 , 2:
+
+intercept 3: [-0.00693931]
+inbuilt f1 for model3 class: 0   2 : 1.0
+
+
+class 1 , 2:
+
+inbuilt f1 for model3 class: 1   2 : 1.0
+intercept 3: [-0.40477513]
+
+-----------------------------------------------------
+data_4:
+
+inbuilt f1 for model4: 0.6324786324786326
+my f1 for model2: 0.6324786324786326
+Accuracy for test: 0.4625
+confusion4:
+	[[ 0 11]
+	 [ 0  9]]
+bias4: [0.99993001]
+
